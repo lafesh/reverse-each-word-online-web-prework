@@ -13,6 +13,6 @@ def reverse_each_word(sentence)
   array2.collect do |word|
     nu_array << word.reverse
   end
-  return array2.join(" ")
+  return nu_array.join(" ")
 end
 
